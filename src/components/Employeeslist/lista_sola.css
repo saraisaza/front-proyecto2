@@ -1,0 +1,54 @@
+
+  
+  .employee-item1:hover {
+    background-color: #ebebeb;
+  }
+  
+  .employee-item1 input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .employee-item1 span {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .employee-item1 input[type="checkbox"]:checked + span {
+    color: #555;
+  }
+  
+  .employee-item1 input[type="checkbox"]:checked + span:before {
+    content: '\2713';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    line-height: 14px;
+    margin-right: 6px;
+  }
+  
+  .employee-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  
+  
+  .employee-item1 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+    height: 50px; 
+  }
+  
+
+  

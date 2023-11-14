@@ -1,0 +1,100 @@
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.kindMessages {
+    margin-bottom: 0px;
+}
+
+.card {
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card input[type="radio"] {
+    margin-right: 10px;
+}
+
+.icon1 {
+    color: #ff0000;
+}
+
+.icon2 {
+    color: #ffa500;
+}
+
+.icon3 {
+    color: #008000;
+}
+
+.card p {
+    margin: 0;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-right: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+button {
+    margin-top: auto;
+
+    background-color: #032167;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    align-content: center;
+    width: 250px;
+    align-self: center;
+
+}
+
+
+button:hover {
+   background-color: #1a6eff; 
+}
+
+.form-group input,
+.form-group textarea {
+    color: black !important;
+}
+

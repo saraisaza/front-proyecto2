@@ -1,0 +1,91 @@
+.notifications-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .notifications-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .no-notifications {
+    font-size: 24px;
+    color: #666;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .notification-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .notification-card {
+    width: 600px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notification-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .notification-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .notification-priority {
+    font-size: 16px;
+    color: #900;
+  }
+  
+  .notification-content {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .notification-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .notification-details p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .notification-professional {
+    color: #004680;
+  }
+  
+  .notification-room {
+    color: #555;
+  }
+  
+  button1 {
+    background-color: #5086cd;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+

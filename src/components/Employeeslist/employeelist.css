@@ -1,0 +1,31 @@
+.select-container {
+  position: relative;
+  display: inline-block;
+
+}
+
+.select-container select {
+  color: black;
+}
+
+.select-container:after {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.select-container select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 500px;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+

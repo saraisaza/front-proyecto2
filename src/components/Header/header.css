@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 20;
+    font-family: sans-serif;
+  }
+  
+  .header {
+    overflow: hidden;
+    background-color: white; /* Changed to white */
+    padding: 20px 10px;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4); /* Added box-shadow */
+    margin-bottom: 50px; /* Added margin-bottom */
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 5px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    color: #0077c2;
+    transform: scale(1.1);
+  }
+  
+  
+  .header a.active {
+    color: #0077c2;
+    border-bottom: 2px solid #0077c2;
+  }
+  
+  
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  
+    .header-right {
+      float: none;
+    }
+  }
+  
+  
+  /* New styles */
+  .header a:hover {
+    background-color: rgba(96, 105, 226, 0.377);
+  }
+  
+  .header a:focus {
+    outline: none;
+  }
+  
+  .header a:active {
+    transform: translateY(2px);
+  }
+
+  .options {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .options ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .options ul li {
+    margin-right: 20px;
+  }
+  
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logo img {
+  max-height: 25px;
+  margin-right: 10px;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+}
+
+.header-links div {
+  margin-right: 20px;
+  position: relative;
+}
+
+
+.header-links div:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -10px;
+  width: 1px;
+  background-color: #333;
+}
+
+div.header-links div a {
+  text-transform: uppercase;
+  color: #333;
+  font-weight: bolder;
+  font-size: 120px;
+  letter-spacing: 4px;
+}
+
+.header-links div a:first-letter {
+  font-size: 30px;
+  color: #0077c2;
+  font-weight: bold;
+}
+
+.header a:hover:not(.no-hover) {
+  background-color: rgba(96, 105, 226, 0.377);
+}
+
+  
+.logo-link {
+  cursor: default !important;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.logo-link:hover {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+  
+  
